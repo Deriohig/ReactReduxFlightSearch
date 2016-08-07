@@ -1,0 +1,46 @@
+{
+  "name": "flight-search-redux",
+  "version": "0.0.0",
+  "description": "A simple flight search application that queries the google flights api, built with React using a redux architecture",
+  "scripts": {
+    "start": "node server.js",
+    "test:watch": "npm test -- --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.3.14",
+    "es6-promise": "^3.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.12.0",
+    "react": "^0.14.7",
+    "react-autosuggest": "^3.6.0",
+    "react-dom": "^0.14.7",
+    "react-dropdown-input": "^0.1.11",
+    "react-input-enhancements": "^0.4.8",
+    "react-redux": "^4.1.2",
+    "react-select": "^1.0.0-beta13",
+    "redux": "^3.1.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.15",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-register": "^6.3.13",
+    "cross-env": "^1.0.7",
+    "css-loader": "^0.23.1",
+    "expect": "^1.8.0",
+    "express": "^4.13.3",
+    "jsdom": "^5.6.1",
+    "mocha": "^2.2.5",
+    "node-libs-browser": "^0.5.2",
+    "react-addons-test-utils": "^0.14.7",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.9.11",
+    "webpack-dev-middleware": "^1.2.0",
+    "webpack-hot-middleware": "^2.9.1"
+  }
+}
